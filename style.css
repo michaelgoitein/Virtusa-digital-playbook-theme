@@ -1,0 +1,133 @@
+/*
+Theme Name:     Twenty Seventeen Playbook Wiki Theme
+Theme URI:      http://www.virtusadigital.com/
+Description:    A Twenty Seventeen child theme developed for the needs of the internal digital playbook wiki.
+Author:         Mike Goitein
+Author URI:     https://www.virtusadigital.com
+License:        GNU General Public License v2 or later
+License URI:    http://www.gnu.org/licenses/gpl-2.0.html
+Template:       twentyseventeen
+Version:        1.0
+*/
+
+
+/* Fix some styles to tighten up whitespace */
+
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
+  line-height: 1.4;
+  margin: 0 0 .25em;
+  padding: 0;
+}
+
+.page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
+  color: #222;
+  font-size: 1.875rem;
+  text-transform: none;
+  font-weight: 400;
+}
+
+
+/* Force sticky navigation into position */
+
+#page-header {
+  margin-bottom: 0 !important;
+}
+
+.site-branding {
+  background-color: #cccccc;
+}
+
+
+/* Force navigation top */
+
+.navigation-top {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: auto;
+  z-index: 4;
+  padding: 0 10px;
+}
+
+.custom-header {
+  position: relative;
+  padding-top: 50px;
+}
+
+.main-navigation>div>ul {
+  border: 2px solid #eee;
+  border-top: 1px solid #eee;
+}
+
+@media screen and (min-width: 30em) {
+  h2, .home.blog .entry-title, .page .panel-content .recent-posts .entry-title {
+    font-size: 1.2rem;
+  }
+  /* Close up extra space */
+  .site-branding {
+    padding: .5em 0;
+  }
+  /* Make content stretch to full width */
+  .page-two-column .panel-content .wrap {
+    max-width: 90%;
+  }
+  /* At wider widths, make sure sidebar doesn't take up more than 20% of the screen */
+  body:not(.has-sidebar):not(.page-one-column) .page-header, body.has-sidebar.error404 #primary .page-header, body.page-two-column:not(.archive) #primary .entry-header, body.page-two-column.archive:not(.has-sidebar) #primary .page-header {
+    float: left;
+    width: 20%;
+  }
+  /* At wider widths, make sure footer sidebar doesn't take up more than 20% of the screen */
+  .site-footer .widget-column.footer-widget-1 {
+    float: left;
+    width: 20%;
+  }
+  /* At wider widths, make sure main content area takes up 70% of the screen */
+  .blog:not(.has-sidebar) #primary article, .archive:not(.page-one-column):not(.has-sidebar) #primary article, .search:not(.has-sidebar) #primary article, .error404:not(.has-sidebar) #primary .page-content, .error404.has-sidebar #primary .page-content, body.page-two-column:not(.archive) #primary .entry-content, body.page-two-column #comments {
+    float: right;
+    width: 70%;
+  }
+  .site-footer .widget-column.footer-widget-2 {
+    float: right;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  h2, .home.blog .entry-title, .page .panel-content .recent-posts .entry-title {
+    font-size: 1.2rem;
+  }
+  .site-branding {
+    padding: .5em 0;
+  }
+  .main-navigation>div>ul {
+    border: 0;
+  }
+  .navigation-top .wrap {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .site-content {
+    padding: 1em 0 0;
+  }
+  .wrap {
+    max-width: 90%;
+    padding: 0;
+  }
+  body:not(.has-sidebar):not(.page-one-column) .page-header, body.has-sidebar.error404 #primary .page-header, body.page-two-column:not(.archive) #primary .entry-header, body.page-two-column.archive:not(.has-sidebar) #primary {
+    float: left;
+    width: 20%;
+  }
+  .site-footer .widget-column.footer-widget-1 {
+    float: left;
+    width: 20%;
+  }
+  .blog:not(.has-sidebar) #primary article, .archive:not(.page-one-column):not(.has-sidebar) #primary article, .search:not(.has-sidebar) #primary article, .error404:not(.has-sidebar) #primary .page-content, .error404.has-sidebar #primary .page-content, body.page-two-column:not(.archive) #primary .entry-content, body.page-two-column #comments {
+    float: right;
+    width: 70%;
+  }
+  .site-footer .widget-column.footer-widget-2 {
+    float: right;
+    width: 70%;
+  }
+}
