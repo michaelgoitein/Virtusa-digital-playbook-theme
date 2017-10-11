@@ -21,6 +21,16 @@ Version:        1.0
   padding: .5em 0;
 }
 
+/* Make all navs stick to top */
+.site-navigation-fixed.navigation-top {
+    bottom: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 7;
+
 /* Fix some styles to tighten up whitespace */
 body.page:not(.twentyseventeen-front-page) .entry-title {
     color: #222;
