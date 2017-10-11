@@ -52,7 +52,9 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
 }
 
 @media screen and (min-width: 30em) {
-
+/* Show nav bar when admin nav is showing */
+  .admin-bar .site-navigation-fixed.navigation-top {
+    top: 32px;
 }
 
 @media screen and (min-width: 48em) {
@@ -85,7 +87,7 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
     float: left;
     width: 20%;
   }
-/* Right main content area */  
+/* Right main content area */
   body.page-two-column:not(.archive) #primary .entry-content {
     float: right;
     width: 70%;
