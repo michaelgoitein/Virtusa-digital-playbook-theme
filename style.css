@@ -71,10 +71,12 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
   }
 
 /* Stretch content to full width on wider browsers */
+/* Full width */
   .wrap {
     max-width: 90%;
     padding: 0;
   }
+/* Left Nav */
   body.page-two-column:not(.archive) #primary .entry-header {
     float: left;
     width: 20%;
@@ -83,7 +85,12 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
     float: left;
     width: 20%;
   }
+/* Right main content area */  
   body.page-two-column:not(.archive) #primary .entry-content {
+    float: right;
+    width: 70%;
+  }
+  body.page-two-column #comments {
     float: right;
     width: 70%;
   }
