@@ -56,6 +56,9 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
   .admin-bar .site-navigation-fixed.navigation-top {
     top: 46px;
 }
+  .site-branding {
+    padding: 4em 0 .5em;
+}
 
 @media screen and (min-width: 48em) {
   .admin-bar .site-navigation-fixed.navigation-top {
