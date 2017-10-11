@@ -52,7 +52,9 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
 }
 
 @media screen and (min-width: 30em) {
-
+/* Show nav bar when admin nav is showing */
+  .admin-bar .site-navigation-fixed.navigation-top {
+    top: 46px;
 }
 
 @media screen and (min-width: 48em) {
