@@ -10,6 +10,10 @@ Template:       twentyseventeen
 Version:        1.0
 */
 
+/* Force sticky navigation into position */
+#page-header {
+  margin-bottom: 0 !important;
+}
 
 /* Tighten up top site branding */
 .site-branding {
