@@ -20,6 +20,10 @@ For access to all features, also install the following plugins:
 - [Custom Sidebars](https://wordpress.org/plugins/custom-sidebars/)
 - [jQuery Smooth Scroll](https://wordpress.org/plugins/jquery-smooth-scroll/)
 
-## Known Issues
+## Version History
+- 1.0 - Initial release
+- 1.1 - Fixed mobile display issues & sticky navigation
 
-- Working on mobile display issues and sticky navigation
+## Known Issues
+- Need to resolve some display and UX issues
+- Need to provide ability for users to access content by role
