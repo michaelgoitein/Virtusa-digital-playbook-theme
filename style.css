@@ -51,7 +51,7 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
     padding: 0;
 }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 20em) {
 /* Show nav bar when admin nav is showing */
   .admin-bar .site-navigation-fixed.navigation-top {
     top: 46px;
