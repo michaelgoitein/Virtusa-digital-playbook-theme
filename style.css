@@ -51,13 +51,17 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
     padding: 0;
 }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 20em) {
 /* Show nav bar when admin nav is showing */
   .admin-bar .site-navigation-fixed.navigation-top {
     top: 46px;
 }
   .site-branding {
+<<<<<<< HEAD
+    padding: 7em 0 .5em;
+=======
     padding: 4em 0 .5em;
+>>>>>>> parent of 21838af... CSS Top Fix on Mobile
 }
 
 @media screen and (min-width: 48em) {
