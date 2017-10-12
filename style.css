@@ -57,11 +57,7 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
     top: 46px;
 }
   .site-branding {
-<<<<<<< HEAD
-    padding: 7em 0 .5em;
-=======
     padding: 4em 0 .5em;
->>>>>>> parent of 21838af... CSS Top Fix on Mobile
 }
 
 @media screen and (min-width: 48em) {
