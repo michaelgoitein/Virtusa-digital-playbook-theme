@@ -82,18 +82,16 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
     border: 0;
   }
   .navigation-top .wrap {
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 0;
   }
   .site-content {
     padding: 1em 0 0;
   }
   .search-form {
-    width: 200px;
-    margin: 0 0 0 10px;
+    width: 20em;
+    margin: 0 0 0 2em;
     display: inline-block;
     vertical-align: middle;
-    float: right;
   }
 
 /* Stretch content to full width on wider browsers */
