@@ -91,6 +91,8 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
   .search-form {
     width: 200px;
     margin: 0 0 0 10px;
+    display: inline-block;
+    vertical-align: middle;
   }
 
 /* Stretch content to full width on wider browsers */
