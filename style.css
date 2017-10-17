@@ -82,7 +82,8 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
     border: 0;
   }
   .navigation-top .wrap {
-    padding: 0;
+    padding: 0 0 0 4em;
+    margin: inherit;
   }
   .site-content {
     padding: 1em 0 0;
