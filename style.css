@@ -88,6 +88,10 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
   .site-content {
     padding: 1em 0 0;
   }
+  .search-form {
+    width: 200px;
+    margin: 0 0 0 10px;
+  }
 
 /* Stretch content to full width on wider browsers */
 /* Full width */
