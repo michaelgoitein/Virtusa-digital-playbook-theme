@@ -93,15 +93,8 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
     margin: 0 0 0 10px;
     display: inline-block;
     vertical-align: middle;
+    float: right;
   }
-
-  .search-form .search-submit {
-    bottom: 3px;
-    padding: 0.5em 1em;
-    position: absolute;
-    right: 3px;
-    top: 3px;
-    margin: .5em 0 0;
 
 /* Stretch content to full width on wider browsers */
 /* Full width */
