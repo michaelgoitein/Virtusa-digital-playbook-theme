@@ -52,6 +52,7 @@
 									} ?>
 								</h1>
 							</div>
+							<?php get_search_form(); ?>
 						</div>
 					</div>
 					<a href="#content" class="menu-scroll-down"><?php echo twentyseventeen_get_svg( array( 'icon' => 'arrow-right' ) ); ?><span class="screen-reader-text"><?php _e( 'Scroll down to content', 'twentyseventeen' ); ?></span></a>
