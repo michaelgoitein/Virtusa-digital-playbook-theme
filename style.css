@@ -51,6 +51,17 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
     padding: 0;
 }
 
+/* Breadcrumb Styling */
+.breadcrumbs {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    font-weight: 400;
+    line-height: 1.66;
+}
+
 @media screen and (min-width: 20em) {
 /* Show nav bar when admin nav is showing */
   .admin-bar .site-navigation-fixed.navigation-top {
