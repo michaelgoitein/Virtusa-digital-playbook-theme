@@ -28,7 +28,7 @@
 			?>
 				<p class="site-description"><?php echo $description; ?></p>
 			<?php endif; ?>
-				<p class="search-form"><?php get_search_form(); ?></p>
+			<?php get_search_form(); ?>
 		</div><!-- .site-branding-text -->
 		<?php if ( ( twentyseventeen_is_frontpage() || ( is_home() && is_front_page() ) ) && ! has_nav_menu( 'top' ) ) : ?>
 		<a href="#content" class="menu-scroll-down"><?php echo twentyseventeen_get_svg( array( 'icon' => 'arrow-right' ) ); ?><span class="screen-reader-text"><?php _e( 'Scroll down to content', 'twentyseventeen' ); ?></span></a>
