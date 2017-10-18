@@ -29,9 +29,6 @@ global $twentyseventeencounter;
 
 	<div class="panel-content">
 		<div class="wrap">
-
-
-
 			<div class="entry-content">
 				<?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
 
