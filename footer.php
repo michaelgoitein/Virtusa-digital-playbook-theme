@@ -37,9 +37,6 @@
 
 // To customize the footer text, comment out the next line and add your custom code.
 // get_template_part( 'template-parts/footer/site', 'info' );?>
-<p style="margin: 10px 0; text-align: right;">Developed by the Virtusa Digital Team, running on <a href="https://wordpress.org">WordPress</a>.</p>
-
-
 			</div><!-- .wrap -->
 		</footer><!-- #colophon -->
 	</div><!-- .site-content-contain -->
