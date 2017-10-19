@@ -72,6 +72,11 @@ h2.widget-title {
     display: none;
 }
 
+/* Clean up left nav here state */
+.advanced-sidebar-menu li.current_page_item a {
+    font-weight: bold;
+}
+
 @media screen and (min-width: 20em) {
 /* Show nav bar when admin nav is showing */
   .admin-bar .site-navigation-fixed.navigation-top {
