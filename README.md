@@ -1,10 +1,9 @@
-# Twenty Seventeen Playbook Wiki Theme
+# Virtusa Digital Twenty Seventeen Playbook Wiki Theme
 ## A WordPress Child Theme for Twenty Seventeen
 
-This is a child theme that adds the following features to Twenty Seventeen:
+This is a child theme that adds the following features to the default WordPress Twenty Seventeen theme:
 
 - Sticky navigation at the top of screen at both desktop and mobile resolutions
-- Support for custom sidebars for each front page section.
 - Sticky left navigation
 - Search box in top header at higher resolutions
 - Breadcrumb navigation to provide users with context
@@ -34,10 +33,10 @@ For access to all features, also install the following plugins:
 - 1.0 - Initial release
 - 1.1 - Fixed mobile display issues & sticky navigation
 - 1.2 - Moved search bar to header, added breadcrumbs, additional cleanup and formatting
+- 1.2.1 - Additional left nav reduction and cleanup
 
 ## Known Issues
 - Additional page & navigatio redesign to come
 - Home page still requires design
 - Need to provide ability for users to access content by role
 - Navigation needs to be finalized
-

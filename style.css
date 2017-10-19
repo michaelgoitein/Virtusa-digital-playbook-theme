@@ -7,7 +7,7 @@ Author URI:     https://www.virtusadigital.com
 License:        GNU General Public License v2 or later
 License URI:    http://www.gnu.org/licenses/gpl-2.0.html
 Template:       twentyseventeen
-Version:        1.1
+Version:        1.2.1
 */
 
 /* Force sticky navigation into position */
@@ -53,11 +53,11 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
 
 /* Breadcrumb Styling */
 .breadcrumbs {
-    padding: 8px 15px;
-    margin-bottom: 20px;
+    padding: .5em 1em;
+    margin-bottom: 1.25em;
     list-style: none;
     background-color: #f5f5f5;
-    border-radius: 4px;
+    border-radius: .25em;
     font-weight: 400;
     line-height: 1.66;
 }
@@ -70,6 +70,15 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
 
 h2.widget-title {
     display: none;
+}
+
+/* Clean up left nav here state */
+.advanced-sidebar-menu li.current_page_item a {
+    font-weight: bold;
+}
+
+.advanced-sidebar-menu li.current_page_item li a {
+    font-weight: normal;
 }
 
 @media screen and (min-width: 20em) {
