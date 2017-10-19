@@ -62,11 +62,15 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
     line-height: 1.66;
 }
 
-/* Remove top & bottom borders from Advanced Sidebar Menus */
+/* Remove padding & top & bottom borders from Advanced Sidebar Menus */
 .widget ul li, .widget ol li {
     border-bottom: none;
     border-top: none;
     padding: 0;
+}
+
+h2.widget-title {
+    display: none;
 }
 
 @media screen and (min-width: 20em) {
