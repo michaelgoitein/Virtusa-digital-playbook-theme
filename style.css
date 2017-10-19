@@ -63,8 +63,10 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
 }
 
 /* Remove top & bottom borders from Advanced Sidebar Menus */
-# advanced_sidebar_menu-2-wrap {
-    border: none;
+.widget ul li, .widget ol li {
+    border-bottom: none;
+    border-top: none;
+    padding: 0;
 }
 
 @media screen and (min-width: 20em) {
