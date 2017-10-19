@@ -77,6 +77,10 @@ h2.widget-title {
     font-weight: bold;
 }
 
+.advanced-sidebar-menu li.current_page_item li a {
+    font-weight: normal;
+}
+
 @media screen and (min-width: 20em) {
 /* Show nav bar when admin nav is showing */
   .admin-bar .site-navigation-fixed.navigation-top {
