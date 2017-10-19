@@ -23,6 +23,7 @@ For access to all features, also install the following plugins:
 ## Version History
 - 1.0 - Initial release
 - 1.1 - Fixed mobile display issues & sticky navigation
+- 1.2 - Moved search bar to header, added breadcrumbs, additional cleanup and formatting
 
 ## Known Issues
 - Need to resolve some display and UX issues
