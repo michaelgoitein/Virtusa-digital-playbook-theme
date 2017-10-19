@@ -5,7 +5,9 @@ This is a child theme that adds the following features to Twenty Seventeen:
 
 - Sticky navigation at the top of screen at both desktop and mobile resolutions
 - Support for custom sidebars for each front page section.
-- Full width content at higher resolutions
+- Sticky left navigation
+- Search box in top header at higher resolutions
+- Breadcrumb navigation to provide users with context
 
 ## How to Use
 
@@ -26,5 +28,8 @@ For access to all features, also install the following plugins:
 - 1.2 - Moved search bar to header, added breadcrumbs, additional cleanup and formatting
 
 ## Known Issues
-- Need to resolve some display and UX issues
+- Additional redesign to come
+- Home page still requires design
 - Need to provide ability for users to access content by role
+- Navigation needs to be finalized
+
