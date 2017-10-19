@@ -64,8 +64,7 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
 
 /* Remove padding & top & bottom borders from Advanced Sidebar Menus */
 .widget ul li, .widget ol li {
-    border-bottom: none;
-    border-top: none;
+    border: none;
     padding: 0;
 }
 
