@@ -62,6 +62,11 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
     line-height: 1.66;
 }
 
+/* Remove top & bottom borders from Advanced Sidebar Menus */
+# advanced_sidebar_menu-2-wrap {
+    border: none;
+}
+
 @media screen and (min-width: 20em) {
 /* Show nav bar when admin nav is showing */
   .admin-bar .site-navigation-fixed.navigation-top {
