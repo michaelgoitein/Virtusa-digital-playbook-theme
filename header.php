@@ -52,6 +52,7 @@
 									} ?>
 								</h1>
 							</div>
+<<<<<<< HEAD
 								<div class="widget_search">
 								<h2 class="widget-title">Search the Playbook</h2>
 							<form role="search" method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
@@ -62,6 +63,8 @@
 								<button type="submit" class="search-submit"><?php echo twentyseventeen_get_svg( array( 'icon' => 'search' ) ); ?><span class="screen-reader-text"><?php echo _x( 'Search', 'submit button', 'twentyseventeen' ); ?></span></button>
 							</form>
 							</div>
+=======
+>>>>>>> parent of 281237d... Add Search Bar to Header
 						</div>
 					</div>
 					<a href="#content" class="menu-scroll-down"><?php echo twentyseventeen_get_svg( array( 'icon' => 'arrow-right' ) ); ?><span class="screen-reader-text"><?php _e( 'Scroll down to content', 'twentyseventeen' ); ?></span></a>

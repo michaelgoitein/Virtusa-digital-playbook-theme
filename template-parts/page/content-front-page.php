@@ -32,8 +32,6 @@
 		<div class="wrap">
 
 			<header class="entry-header">
-
-				<hr>
 				<div class="front-page-sidebar">
 					<aside id="secondary" class="widget-area" role="complementary"><?php
 					$title = get_the_title();
