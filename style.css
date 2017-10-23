@@ -159,7 +159,7 @@ h2.widget-title {
 
 #advanced_sidebar_menu-2-wrap a{
 	display:block !important;
-	padding: .25em 1em .25em 1.25em !important;
+	padding: .25em 1em 0 1.25em !important;
 }
 
 #advanced_sidebar_menu-2-wrap ul,ol{
