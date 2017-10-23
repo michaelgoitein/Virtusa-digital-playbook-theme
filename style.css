@@ -51,6 +51,10 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
     padding: 0;
 }
 
+#secondary {
+    padding: 0 0 2em 0;
+}
+
 /* Breadcrumb Styling */
 .breadcrumbs {
     padding: .5em 1em;
@@ -217,7 +221,7 @@ h2.widget-title {
     border: 0;
   }
   .navigation-top .wrap {
-    max-width: 90%;
+    max-width: 92%;
     padding: 0;
   }
   .site-content {
@@ -234,32 +238,32 @@ h2.widget-title {
 /* Stretch content to full width on wider browsers */
 /* Full width */
   .wrap {
-    max-width: 90%;
+    max-width: 96%;
     padding: 0;
   }
 /* Left Nav */
   body.page-two-column:not(.archive) #primary .entry-header {
     float: left;
-    width: 20%;
+    width: 22%;
   }
   .site-footer .widget-column.footer-widget-1 {
     float: left;
-    width: 20%;
+    width: 22%;
   }
 /* Right main content area */
   body.page-two-column:not(.archive) #primary .entry-content {
     float: left;
-    width: 70%;
+    width: 74%;
     padding: 0 0 0 2em;
   }
   body.page-two-column #comments {
     float: right;
-    width: 70%;
+    width: 74%;
     padding: 0 0 0 2em;
   }
   .site-footer .widget-column.footer-widget-2 {
     float: right;
-    width: 70%;
+    width: 74%;
     padding: 0 0 0 2em;
   }
 }
