@@ -81,6 +81,33 @@ h2.widget-title {
     font-weight: normal;
 }
 
+/* Move + - to left side of left-hand nav */
+#advanced_sidebar_menu-2-wrap a {
+    display: block !important;
+    padding: .25em .5em .25em 1.5em !important;
+}
+
+.advanced-sidebar-menu ul li a {
+    font-weight: bold;
+    font-size: 120%;
+    text-decoration: none;
+}
+
+#advanced_sidebar_menu-2-wrap li li a {
+    padding-left: 2em !important;
+}
+
+#advanced_sidebar_menu-2-wrap li li li a {
+    padding-left: 2.5em !important;
+}
+
+#advanced_sidebar_menu-2-wrap .dashicons {
+    position: absolute !important;
+    top: .5em !important;
+    left: .25em !important;
+}
+
+/* Mobile Styles */
 @media screen and (min-width: 20em) {
 /* Show nav bar when admin nav is showing */
   .admin-bar .site-navigation-fixed.navigation-top {
@@ -90,6 +117,7 @@ h2.widget-title {
     padding: 4em 0 .5em;
 }
 
+/* Desktop Styles */
 @media screen and (min-width: 48em) {
   .admin-bar .site-navigation-fixed.navigation-top {
     top: 32px;
