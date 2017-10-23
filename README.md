@@ -34,9 +34,9 @@ For access to all features, also install the following plugins:
 - 1.1 - Fixed mobile display issues & sticky navigation
 - 1.2 - Moved search bar to header, added breadcrumbs, additional cleanup and formatting
 - 1.2.1 - Additional left nav reduction and cleanup
+- 1.2.2 - Handled additional left nav requests and cleanup
 
 ## Known Issues
 - Additional page & navigation redesign to come
 - Home page still requires design
 - Need to provide ability for users to access content by role
-- Navigation needs to be finalized
