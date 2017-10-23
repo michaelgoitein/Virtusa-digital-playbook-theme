@@ -89,7 +89,7 @@ h2.widget-title {
 
 /* Left Nav CSS refactoring, move + - to left side of left-hand nav */
 .advanced-sidebar-menu ul li a{
-	font-weight: bold;
+	font-weight: normal;
 	font-size: 120%;
 	text-decoration: none;
 }
