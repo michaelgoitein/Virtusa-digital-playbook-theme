@@ -36,7 +36,7 @@ For access to all features, also install the following plugins:
 - 1.2.1 - Additional left nav reduction and cleanup
 
 ## Known Issues
-- Additional page & navigatio redesign to come
+- Additional page & navigation redesign to come
 - Home page still requires design
 - Need to provide ability for users to access content by role
 - Navigation needs to be finalized
