@@ -87,11 +87,7 @@ h2.widget-title {
     padding: .25em .5em .25em 1.5em !important;
 }
 
-.advanced-sidebar-menu ul li a {
-    font-weight: bold;
-    font-size: 120%;
-    text-decoration: none;
-}
+
 
 #advanced_sidebar_menu-2-wrap li li a {
     padding-left: 2em !important;
