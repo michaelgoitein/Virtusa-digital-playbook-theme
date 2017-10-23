@@ -126,7 +126,8 @@ h2.widget-title {
 }
 
 .advanced-sidebar-menu li.current_page_item li a{
-    font-weight: normal;
+  font-weight: normal;
+  color: inherit;
 }
 
 .advanced-sidebar-menu ul li a:hover{
