@@ -248,15 +248,18 @@ h2.widget-title {
   }
 /* Right main content area */
   body.page-two-column:not(.archive) #primary .entry-content {
-    float: right;
+    float: left;
     width: 70%;
+    padding: 0 0 0 2em;
   }
   body.page-two-column #comments {
-    float: right;
+    float: left;
     width: 70%;
+    padding: 0 0 0 2em;
   }
   .site-footer .widget-column.footer-widget-2 {
-    float: right;
+    float: left;
     width: 70%;
+    padding: 0 0 0 2em;    
   }
 }
