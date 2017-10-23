@@ -61,6 +61,11 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
     padding: 0 0 0 2em;
 }
 
+/* Fix Page Edit Underline */
+    .edit-link a {
+    text-decoration: underline;
+    }
+
 /* Breadcrumb Styling */
 .breadcrumbs {
     padding: .5em 1em;
