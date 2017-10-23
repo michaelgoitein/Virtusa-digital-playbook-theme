@@ -55,6 +55,12 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
     padding: 0 0 2em 0;
 }
 
+/* Fix lists */
+    .entry-content ul, ol {
+    margin: 0 0 1.5em;
+    padding: 0 0 0 2em;
+}
+
 /* Breadcrumb Styling */
 .breadcrumbs {
     padding: .5em 1em;
@@ -265,5 +271,8 @@ h2.widget-title {
     float: right;
     width: 74%;
     padding: 0 0 0 2em;
+  }
+  .site-footer {
+    border: none;
   }
 }
