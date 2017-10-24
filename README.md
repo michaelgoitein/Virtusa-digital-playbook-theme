@@ -16,6 +16,12 @@ Log into your WordPress site, make sure Twenty Seventeen is already installed, a
 
 Next go to **Appearance > Themes** and activate the child theme: *Twenty Seventeen Playbook Wiki Theme*.
 
+You'll need to go to **Customize > Site Identity** and choose the Virtusa Digital logo. Click on the first logo to the right, and make sure to choose **Skip Cropping** in the lower right.
+
+Next, you'll need to go to **Customize > Header Media** and choose **Hide Media**
+
+Click **Save and Publish**, and you should be all good to go.
+
 For access to all features, also install the following plugins:
 - [Custom Sidebars](https://wordpress.org/plugins/custom-sidebars/)
 - [jQuery Smooth Scroll](https://wordpress.org/plugins/jquery-smooth-scroll/)
@@ -37,8 +43,10 @@ For access to all features, also install the following plugins:
 - 1.2.2 - Handled additional left nav requests and formatting cleanup; updated screenshot
 - 1.2.3 - Updated mobile styles stacking nav on top of content
 - 1.2.4 - Fixed hover state in left nav, CSS refactoring
+- 1.2.5 - Fixed global hover state in main content area
 
-## Known Issues
+## Known Issues & Roadmap
 - Home page still requires design
 - Overall content-driven design tweaks need to be done
 - Need to provide ability for users to access content by role
+- Would like to make installation of the theme a one-click process, without having to use the **Customize** menu
