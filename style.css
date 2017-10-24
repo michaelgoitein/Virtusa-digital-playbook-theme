@@ -221,7 +221,7 @@ h2.widget-title {
     padding: 4em 0 .5em;
 }
 /* Remove space below nav bar and add single line on mobile */
-  #advanced_sidebar_menu-2.widget .advanced-sidebar-menu {
+    #advanced_sidebar_menu-2 {
     padding-bottom: 0;
     border-bottom: 1px solid #eee;
 }
