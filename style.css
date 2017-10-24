@@ -281,4 +281,8 @@ h2.widget-title {
   .site-footer {
     border: none;
   }
+  .widget .advanced-sidebar-menu {
+    padding-bottom: 0;
+    border-bottom: 1px solid #eee;
+  }
 }
