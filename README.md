@@ -36,9 +36,9 @@ For access to all features, also install the following plugins:
 - 1.2.1 - Additional left nav reduction and cleanup
 - 1.2.2 - Handled additional left nav requests and formatting cleanup; updated screenshot
 - 1.2.3 - Updated mobile styles stacking nav on top of content
+- 1.2.4 - Fixed hover state in left nav, CSS refactoring
 
 ## Known Issues
-- Overall content-driven design tweaks need to be done
-- Additional page & navigation redesign to come
 - Home page still requires design
+- Overall content-driven design tweaks need to be done
 - Need to provide ability for users to access content by role
