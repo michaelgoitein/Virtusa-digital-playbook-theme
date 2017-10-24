@@ -1,4 +1,4 @@
-/*
+  /*
 Theme Name:     Twenty Seventeen Playbook Wiki Theme
 Theme URI:      http://www.virtusadigital.com/
 Description:    A Twenty Seventeen child theme developed for the needs of the internal digital playbook wiki.
@@ -10,194 +10,219 @@ Template:       twentyseventeen
 Version:        1.2.3
 */
 
+
 /* Force sticky navigation into position */
+
 #page-header {
   margin-bottom: 0 !important;
 }
 
+
 /* Tighten up top site branding */
+
 .site-branding {
   background-color: #cccccc;
   padding: .5em 0;
 }
 
+
 /* Make all navs stick to top */
+
 .site-navigation-fixed.navigation-top {
-    bottom: auto;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    width: 100%;
-    z-index: 7;
+  bottom: auto;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 7;
 }
+
 
 /* Fix some styles to tighten up whitespace */
+
 body.page:not(.twentyseventeen-front-page) .entry-title {
-    color: #222;
-    font-size: 1.875rem;
-    text-transform: none;
-    font-weight: 400;
-    clear: both;
-    line-height: 1.4;
-    margin: 0 0 .25em;
-    padding: 0;
+  color: #222;
+  font-size: 1.875rem;
+  text-transform: none;
+  font-weight: 400;
+  clear: both;
+  line-height: 1.4;
+  margin: 0 0 .25em;
+  padding: 0;
 }
 
-  h2 {
-    font-size: 1.4rem;
-    clear: both;
-    margin: 0 0 .25em;
-    padding: 0;
+h2 {
+  font-size: 1.4rem;
+  clear: both;
+  margin: 0 0 .25em;
+  padding: 0;
 }
 
 #secondary {
-    padding: 0 0 2em 0;
+  padding: 0 0 2em 0;
 }
+
 
 /* Fix lists */
-    .entry-content ul, ol {
-    margin: 0 0 1.5em;
-    padding: 0 0 0 2em;
+
+.entry-content ul, ol {
+  margin: 0 0 1.5em;
+  padding: 0 0 0 2em;
 }
+
 
 /* Fix Page Edit Underline */
-    .edit-link a {
-    text-decoration: underline;
-    }
 
-/* Breadcrumb Styling */
-.breadcrumbs {
-    padding: .5em 1em;
-    margin-bottom: 1.25em;
-    list-style: none;
-    background-color: #f5f5f5;
-    border-radius: .25em;
-    font-weight: 400;
-    line-height: 1.66;
+.edit-link a {
+  text-decoration: underline;
 }
 
+
+/* Breadcrumb Styling */
+
+.breadcrumbs {
+  padding: .5em 1em;
+  margin-bottom: 1.25em;
+  list-style: none;
+  background-color: #f5f5f5;
+  border-radius: .25em;
+  font-weight: 400;
+  line-height: 1.66;
+}
+
+
 /* Remove padding & top & bottom borders from Advanced Sidebar Menus */
+
 .widget ul li, .widget ol li {
-    border: none;
-    padding: 0;
+  border: none;
+  padding: 0;
 }
 
 h2.widget-title {
-    display: none;
+  display: none;
 }
+
+
+/* Removing heavy underline on hover */
+
+.widget li a:hover {
+  box-shadow: none !important;
+  color: #f66b29 !important;
+}
+
 
 /* Left Nav CSS refactoring, move + - to left side of left-hand nav */
-.advanced-sidebar-menu ul li a{
-	font-weight: normal;
-	font-size: 120%;
-	text-decoration: none;
+
+.advanced-sidebar-menu ul li a {
+  font-weight: normal;
+  font-size: 120%;
+  text-decoration: none;
 }
 
-.advanced-sidebar-menu ul li a:hover{
-	text-decoration: none;
+.advanced-sidebar-menu ul li a:hover {
+  text-decoration: none;
 }
 
-.advanced-sidebar-menu ul ul li a{
-	font-weight: normal;
-	font-size: 100%;
+.advanced-sidebar-menu ul ul li a {
+  font-weight: normal;
+  font-size: 100%;
 }
 
-.advanced-sidebar-menu ul{
-	margin: 0 0 0 18px;
-	list-style: none;
-	list-style-type: none;
+.advanced-sidebar-menu ul {
+  margin: 0 0 0 18px;
+  list-style: none;
+  list-style-type: none;
 }
 
-.advanced-sidebar-menu ul li{
-	list-style:none;
-	list-style-type: none;
-	margin: 0;
-
+.advanced-sidebar-menu ul li {
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
 }
 
-.advanced-sidebar-menu li.current_page_item{
-	list-style-type: none;
+.advanced-sidebar-menu li.current_page_item {
+  list-style-type: none;
 }
 
-.advanced-sidebar-menu li.current_page_item a{
-	font-weight: bold;
+.advanced-sidebar-menu li.current_page_item a {
+  font-weight: bold;
   color: #F66B29;
 }
 
-.advanced-sidebar-menu li.current_page_item li a{
+.advanced-sidebar-menu li.current_page_item li a {
   font-weight: normal;
   color: inherit;
 }
 
-.advanced-sidebar-menu ul li a:hover{
-	text-decoration: none;
+.advanced-sidebar-menu ul li a:hover {
+  text-decoration: none;
 }
 
-.advanced-sidebar-menu ul ul li a{
-	font-weight: normal;
-	font-size: 100%;
+.advanced-sidebar-menu ul ul li a {
+  font-weight: normal;
+  font-size: 100%;
 }
 
-.advanced-sidebar-menu ul{
-	margin: 0 0 0 18px;
-	list-style: none;
-	list-style-type: none;
+.advanced-sidebar-menu ul {
+  margin: 0 0 0 18px;
+  list-style: none;
+  list-style-type: none;
 }
 
-.advanced-sidebar-menu ul li{
-	list-style:none;
-	list-style-type: none;
-	margin: 0;
-
+.advanced-sidebar-menu ul li {
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
 }
 
-#advanced_sidebar_menu-2-wrap li{
-	list-style-type: none !important;
-	list-style: none!important;
+#advanced_sidebar_menu-2-wrap li {
+  list-style-type: none !important;
+  list-style: none!important;
 }
 
-#advanced_sidebar_menu-2-wrap a{
-	display:block !important;
-	padding: .25em 1em 0 1.25em !important;
+#advanced_sidebar_menu-2-wrap a {
+  display: block !important;
+  padding: .25em 1em 0 1.25em !important;
 }
 
-#advanced_sidebar_menu-2-wrap ul,ol{
-	margin: 0 0 1.75em !important;
+#advanced_sidebar_menu-2-wrap ul, ol {
+  margin: 0 0 1.75em !important;
 }
 
-#advanced_sidebar_menu-2-wrap ul ul,ol ol{
-	margin: 0 0 0 !important;
+#advanced_sidebar_menu-2-wrap ul ul, ol ol {
+  margin: 0 0 0 !important;
 }
 
-#advanced_sidebar_menu-2-wrap li{
-	margin: 0 !important; padding: 0 !important
+#advanced_sidebar_menu-2-wrap li {
+  margin: 0 !important;
+  padding: 0 !important
 }
 
-#advanced_sidebar_menu-2-wrap li li a{
-	padding-left: 1.5em !important;
+#advanced_sidebar_menu-2-wrap li li a {
+  padding-left: 1.5em !important;
 }
 
-#advanced_sidebar_menu-2-wrap li li li a{
-	padding-left: 2em !important;
+#advanced_sidebar_menu-2-wrap li li li a {
+  padding-left: 2em !important;
 }
 
-#advanced_sidebar_menu-2-wrap li li li li a{
-	padding-left: 2.5em !important;
+#advanced_sidebar_menu-2-wrap li li li li a {
+  padding-left: 2.5em !important;
 }
 
-#advanced_sidebar_menu-2-wrap li li li li li a{
-	padding-left: 3em !important;
+#advanced_sidebar_menu-2-wrap li li li li li a {
+  padding-left: 3em !important;
 }
 
-#advanced_sidebar_menu-2-wrap li{
-	position:relative !important
+#advanced_sidebar_menu-2-wrap li {
+  position: relative !important
 }
 
-#advanced_sidebar_menu-2-wrap .dashicons{
-	position:absolute !important;
-	top: .6em !important;
-	left: .2em !important;
+#advanced_sidebar_menu-2-wrap .dashicons {
+  position: absolute !important;
+  top: .6em !important;
+  left: .2em !important;
   display: inline-block;
   width: 1em;
   height: 1em;
@@ -211,79 +236,79 @@ h2.widget-title {
   text-align: center;
 }
 
+
 /* Mobile Styles */
+
 @media screen and (min-width: 20em) {
-/* Show nav bar when admin nav is showing */
+  /* Show nav bar when admin nav is showing */
   .admin-bar .site-navigation-fixed.navigation-top {
     top: 46px;
-}
+  }
   .site-branding {
     padding: 4em 0 .5em;
-}
-/* Remove space below nav bar and add single line on mobile */
-    #advanced_sidebar_menu-2 {
+  }
+  /* Remove space below nav bar and add single line on mobile */
+  #advanced_sidebar_menu-2 {
     padding-bottom: 0;
     border-bottom: 1px solid #eee;
-}
-
-/* Desktop Styles */
-@media screen and (min-width: 48em) {
-  .admin-bar .site-navigation-fixed.navigation-top {
-    top: 32px;
-}
-  .site-branding {
-    padding: .5em 0;
   }
-  .main-navigation>div>ul {
-    border: 0;
+  /* Desktop Styles */
+  @media screen and (min-width: 48em) {
+    .admin-bar .site-navigation-fixed.navigation-top {
+      top: 32px;
+    }
+    .site-branding {
+      padding: .5em 0;
+    }
+    .main-navigation>div>ul {
+      border: 0;
+    }
+    .navigation-top .wrap {
+      max-width: 92%;
+      padding: 0;
+    }
+    .site-content {
+      padding: 1em 0 0;
+    }
+    .search-form {
+      width: 20em;
+      margin: 1em 0 0 2em;
+      float: right;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    /* Stretch content to full width on wider browsers */
+    /* Full width */
+    .wrap {
+      max-width: 96%;
+      padding: 0;
+    }
+    /* Left Nav */
+    body.page-two-column:not(.archive) #primary .entry-header {
+      float: left;
+      width: 22%;
+    }
+    .site-footer .widget-column.footer-widget-1 {
+      float: left;
+      width: 22%;
+    }
+    /* Right main content area */
+    body.page-two-column:not(.archive) #primary .entry-content {
+      float: left;
+      width: 74%;
+      padding: 0 0 0 2em;
+    }
+    body.page-two-column #comments {
+      float: right;
+      width: 74%;
+      padding: 0 0 0 2em;
+    }
+    .site-footer .widget-column.footer-widget-2 {
+      float: right;
+      width: 74%;
+      padding: 0 0 0 2em;
+    }
+    .site-footer {
+      border: none;
+    }
   }
-  .navigation-top .wrap {
-    max-width: 92%;
-    padding: 0;
-  }
-  .site-content {
-    padding: 1em 0 0;
-  }
-  .search-form {
-    width: 20em;
-    margin: 1em 0 0 2em;
-    float: right;
-    display: inline-block;
-    vertical-align: middle;
-  }
-
-/* Stretch content to full width on wider browsers */
-/* Full width */
-  .wrap {
-    max-width: 96%;
-    padding: 0;
-  }
-/* Left Nav */
-  body.page-two-column:not(.archive) #primary .entry-header {
-    float: left;
-    width: 22%;
-  }
-  .site-footer .widget-column.footer-widget-1 {
-    float: left;
-    width: 22%;
-  }
-/* Right main content area */
-  body.page-two-column:not(.archive) #primary .entry-content {
-    float: left;
-    width: 74%;
-    padding: 0 0 0 2em;
-  }
-  body.page-two-column #comments {
-    float: right;
-    width: 74%;
-    padding: 0 0 0 2em;
-  }
-  .site-footer .widget-column.footer-widget-2 {
-    float: right;
-    width: 74%;
-    padding: 0 0 0 2em;
-  }
-  .site-footer {
-    border: none;
-  }
-}
