@@ -35,8 +35,10 @@ For access to all features, also install the following plugins:
 - 1.2 - Moved search bar to header, added breadcrumbs, additional cleanup and formatting
 - 1.2.1 - Additional left nav reduction and cleanup
 - 1.2.2 - Handled additional left nav requests and formatting cleanup; updated screenshot
+- 1.2.3 - Updated mobile styles stacking nav on top of content
 
 ## Known Issues
+- Overall content-driven design tweaks need to be done
 - Additional page & navigation redesign to come
 - Home page still requires design
 - Need to provide ability for users to access content by role
