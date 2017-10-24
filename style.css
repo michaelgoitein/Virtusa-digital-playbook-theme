@@ -220,6 +220,11 @@ h2.widget-title {
   .site-branding {
     padding: 4em 0 .5em;
 }
+/* Remove space below nav bar and add single line on mobile */
+  .widget .advanced-sidebar-menu {
+    padding-bottom: 0;
+    border-bottom: 1px solid #eee;
+}
 
 /* Desktop Styles */
 @media screen and (min-width: 48em) {
@@ -280,9 +285,5 @@ h2.widget-title {
   }
   .site-footer {
     border: none;
-  }
-  .widget .advanced-sidebar-menu {
-    padding-bottom: 0;
-    border-bottom: 1px solid #eee;
   }
 }
