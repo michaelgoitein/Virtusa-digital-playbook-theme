@@ -45,7 +45,8 @@ For access to all features, also install the following plugins:
 - 1.2.4 - Fixed hover state in left nav, CSS refactoring
 - 1.2.5 - Fixed global hover state in main content area
 
-## Known Issues
+## Known Issues & Roadmap
 - Home page still requires design
 - Overall content-driven design tweaks need to be done
 - Need to provide ability for users to access content by role
+- Would like to make installation of the theme a one-click process, without having to use the **Customize** menu
