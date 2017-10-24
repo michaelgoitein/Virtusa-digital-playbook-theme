@@ -136,12 +136,21 @@ Version:        1.2.5
   h2.widget-title {
     display: none;
   }
+  /* Removing heavy underline on hover */
 
+  .widget li a:hover {
+    box-shadow: none !important;
+    color: #f66b29 !important;
+  }
   /* Left Nav CSS refactoring, move + - to left side of left-hand nav */
 
   .advanced-sidebar-menu ul li a {
     font-weight: normal;
     font-size: 120%;
+    text-decoration: none;
+  }
+
+  .advanced-sidebar-menu ul li a:hover {
     text-decoration: none;
   }
 
