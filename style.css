@@ -89,8 +89,8 @@ Version:        1.2.4
   /* Removing heavy underline on hover */
 
   .widget li a:hover {
-    box-shadow: none;
-    color: #f66b29;
+    box-shadow: none !important;
+    color: #f66b29 !important;
   }
   /* Left Nav CSS refactoring, move + - to left side of left-hand nav */
 
